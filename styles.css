@@ -6,7 +6,7 @@
 
 .cabecera {
     display: flex;
-    background-color: gray;
+    background: #414141;
     height: 75px;
     width: auto;
 
@@ -28,13 +28,12 @@
 }
 
 .titulo {
-    color: #642a73;
+    color: #2d6e88;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
 }
 
-/* Header */
 
 .presentacion {
     width: 100%;
@@ -44,10 +43,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: antiquewhite;
     -webkit-text-stroke: 2px black;
-    /* fallback for old browsers */
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(118, 95%, 50%, 0.459), hsla(0, 0%, 0%, 0.664)), url(media/miotaverso.png);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -127,7 +123,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3 span{
-    background: #4d0686;
+    background: #06865b;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -144,8 +140,6 @@ main .sobre-nosotros{
     font-weight: 300;
     text-align: justify;
 }
-
-/* Galeria */
 
 
 .arte{
@@ -174,41 +168,13 @@ main .sobre-nosotros{
     display: block;
 }
 
-.hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
-    transition: transform .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hover-galeria img{
-    width: 50px;
-}
-
-.hover-galeria p{
-    color: #fff;
-}
-
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
-}
-
-/* Clients */
-
 .cards{
     display: flex;
     justify-content: space-evenly;
 }
 
 .cards .card{
-    background: #4d0686;
+    background: #068640;
     display: flex;
     width: 46%;
     height: 200px;
@@ -237,7 +203,6 @@ main .sobre-nosotros{
     padding-top: 5px;
 }
 
-/*  Our team */
 
 .about-services{
     background: #f2f2f2;
@@ -269,7 +234,6 @@ main .sobre-nosotros{
     text-align: justify;
 }
 
-/* footer */
 
 footer{
     background: #414141;
@@ -293,7 +257,7 @@ footer{
 
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #20d3c4;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
